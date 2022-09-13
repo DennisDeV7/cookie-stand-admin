@@ -1,6 +1,8 @@
 import { hours } from '../data';
+import useResource from '../hooks/useResource';
 
 export default function ReportTable(props) {
+    const { resources } = useResource()
     let total = 0
 
     function grandTotal(totalArr) {

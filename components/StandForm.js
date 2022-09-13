@@ -21,7 +21,7 @@ export default function StandForm(props) {
 						<p>Average Cookies per Sale</p>
 						<input name="avgCookies" placeholder='number here' type="text" />
 					</div>
-					<button className='px-4 py-2 bg-emerald-500'>Create</button>
+					<button className='px-4 py-2 bg-emerald-500' type="submit">Create</button>
 				</div>
 			</form>
 		</div>
