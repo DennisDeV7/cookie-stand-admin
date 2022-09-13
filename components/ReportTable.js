@@ -26,7 +26,6 @@ export default function ReportTable(props) {
                 totalArr[j] += currentCity.hourlySales[j]
             }
         }
-        console.log(totalArr)
         return totalArr
     }
 

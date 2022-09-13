@@ -61,6 +61,7 @@ export default function useResource(){
         // STRETCH: refresh the access token when it has expired
         logout();
     }
+    console.log(tokens && !error && !data)
     return {
         resources: data,
         error,
